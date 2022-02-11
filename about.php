@@ -63,4 +63,6 @@ $about = new About();
 
 </div>
 
+<?php include 'footer.php'?>
+
 
