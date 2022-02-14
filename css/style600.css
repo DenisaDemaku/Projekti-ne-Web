@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) {
+    .section1 {background-attachment: scroll;}
+    .headermenu li {display: none;}
+    .headermenu #icon {display: inline-flex;}
+    .headermenu ul {display: flex; justify-content: flex-end; width: 100%;}
+    .headermenu.responsive {height: auto;}
+    .headermenu.responsive ul {display: flex; width: 100%; flex-direction: column;}
+    .headermenu.responsive #icon {justify-content: flex-end;}
+    .headermenu.responsive li {display: inline-flex; align-content: center; justify-content: center;}
+    .headermenu.responsive a:not(#menuhref) {width: 100%}
+    .ourservices {width: 100%; padding: 25px 25px 25px 25px; }
+    .section3 {flex-wrap: wrap; padding: 50px 0px 50px 0px;}
+    .section3info {padding: 50px 25px 0 25px}
+    .section5 {flex-wrap: wrap; padding: 50px 0px 50px 0px;}
+    .section5info {padding: 0px 25px 50px 25px}
+    .maincontainer {padding: 0px 30px 30px 30px; min-height: 65vh; margin-top: 50px; margin-bottom: 50px;}
+    .forma {width: 80%}
+    .addarticleButtons{flex-wrap: wrap;}
+    .article {width: 100%; padding: 25px 25px 25px 25px; }
+    .department {max-width: none;}
+}
