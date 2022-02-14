@@ -201,3 +201,28 @@ body {
     justify-content: space-between;
     padding: 10px;
 }
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    min-height: 55vh;
+    width: 80%;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding: 50px;
+    background-color: #eceff1;
+    -webkit-box-shadow: 0px 0px 40px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 40px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 40px 5px rgba(0,0,0,0.75);
+}
+
+#aboutphoto{
+    width: 100%;
+    min-width: 20vh;
+    max-width: 40vh;
+    border-radius: 40px;
+    margin: auto;
+}
