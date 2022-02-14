@@ -1,7 +1,7 @@
 <?php
-require 'includes/class-autoload.inc.php';
+//require 'includes/class-autoload.inc.php';
 session_start();
-$about = new About();
+//$about = new About();
 ?>
 <!DOCTYPE html>
 <html>
