@@ -1,3 +1,9 @@
+<?php
+require 'includes/class-autoload.inc.php';
+session_start();
+$home = new Home();
+?>
+
 <!DOCTYPE html>
 <html>
 
