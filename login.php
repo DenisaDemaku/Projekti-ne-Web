@@ -65,7 +65,7 @@ if ($loginCheck->isLogin()) {
         <input type="email" id="email" name="email" placeholder="Enter your email..." >
         <br>
         <label for="password">Enter your password:</label><br>
-        <input type="password" id="password" name="password" placeholder="Enter your password..."  required>
+        <input type="password" id="password" name="password" placeholder="Enter your password..." >
         <br>
         <br>
         <input id="button" type="submit" name="submit" value="Login">
